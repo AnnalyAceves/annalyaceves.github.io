@@ -1,7 +1,12 @@
 ---
-title: "annalyaceves.github.io"
+title: "Annaly Aceves"
+image: logo.png
+toc: false
+about: 
+  template: jolla
+  image-shape: rectangle
+  image-width: 17em
+   
+    
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
