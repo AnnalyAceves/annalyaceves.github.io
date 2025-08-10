@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - google17429f0fe695a56c.html
+
 
 website:
   title: "Annaly Aceves"
