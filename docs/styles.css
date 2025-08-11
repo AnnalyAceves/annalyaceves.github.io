@@ -1,1 +1,64 @@
 /* css styles */
+
+body {
+  line-height: 1.6;
+  background-color: #DEE6FC;
+  color: #333;
+}
+
+/*About Page*/
+.content{
+  text-align: center;
+  padding: 80px 50px;
+}
+
+/*navigation head*/
+.navbar {
+  background-color: #09195C ;
+  color:#DEE6FC ;
+}
+
+
+/* Global Times New Roman override */
+* {
+  font-family: "Times New Roman", Times, serif !important;
+  letter-spacing: 0.02em; /* subtle spacing for readability */
+  line-height: 1.6;
+}
+
+/* Code blocks and inline code */
+code, pre, kbd, samp {
+  font-family: "Times New Roman", Times, serif !important;
+  letter-spacing: normal;
+}
+
+/* Headings with classic elegance */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.03em;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* Navbar links — slightly larger & bold */
+.navbar a,
+.navbar-nav .nav-link {
+  font-weight: bold;
+  font-size: 1.05em;
+  letter-spacing: 0.02em;
+}
+
+/* Buttons — more presence */
+button, .btn {
+  font-weight: bold;
+  font-size: 1.05em;
+  padding: 0.5em 1em;
+}
+
+/* Captions and small text — lighter but still readable */
+.caption,
+figcaption,
+small {
+  font-size: 0.9em;
+  color: #555;
+}
+

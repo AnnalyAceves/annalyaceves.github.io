@@ -2,12 +2,11 @@
 title: "Annaly Aceves"
 image: logo.png
 toc: false
+css: styles.css
 about: 
   template: jolla
   image-shape: rectangle
   image-width: 17em
-   
     
 ---
 
-test
