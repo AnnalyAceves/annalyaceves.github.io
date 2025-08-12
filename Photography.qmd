@@ -1,9 +1,10 @@
 ---
 title: "Photography"
-format: html
 editor: visual
 toc: false
-
+format:
+  html:
+    page-layout: custom
 ---
 
 <div class="photo-masonry">
