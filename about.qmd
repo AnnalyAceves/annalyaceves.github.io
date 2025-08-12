@@ -1,6 +1,6 @@
 ---
 title: "About"
-
+toc: false
 ---
 
 Hi my name is Annaly I am a recent UCSB graduate with a B.A. in History of Art and Architecture. 
