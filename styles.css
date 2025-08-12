@@ -19,9 +19,9 @@ body, .content {
   column-count: 4;
   column-gap: 15px;
   
-  width: 100vw;
-  max-width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: 100%;
+  max-width: 100%;
+  
   
   margin: 0auto;
   padding: 0 15px;
