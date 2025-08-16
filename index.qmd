@@ -12,9 +12,7 @@ about:
 
 
 <div class="footer">
-  <a href="https://www.instagram.com/annalys_fotos?igsh=MzRlODBiNWFlZA==">
-    <img src= "instagram.png">
-  </a>
+
   
       
       
