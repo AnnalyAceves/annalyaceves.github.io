@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-a14e3238c51140e99ccc48519b6ed9ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./artwork.html"> 
-<span class="menu-text">Art Work</span></a>
+<span class="menu-text">artwork</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -134,7 +137,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="photo-masonry">
-<p><img src="photos/DSC02675.jpg"> <img src="photos/DSC02701.jpg"> <img src="photos/DSC03015.jpg"> <img src="photos/DSC03086.jpg"> <img src="photos/DSC03236.jpg"> <img src="photos/DSC03536.jpg"> <img src="photos/DSC04198.jpg"> <img src="photos/DSC04337.jpg"> <img src="photos/DSC04437.jpg"> <img src="photos/DSC04670.jpg"> <img src="photos/DSC03525.jpg"> <img src="photos/DSC03817.jpg"> <img src="photos/DSC00590.jpg"> <img src="photos/DSC00274.jpg"> <img src="photos/DSC03684.jpg"></p>
+<p><a href="photos/DSC00274.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="photos/DSC00274.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC00590.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="photos/DSC00590.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC02675.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="photos/DSC02675.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC02701.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="photos/DSC02701.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC03015.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="photos/DSC03015.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC03086.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="photos/DSC03086.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC03236.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="photos/DSC03236.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC03525.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="photos/DSC03525.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC03536.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="photos/DSC03536.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC03684.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="photos/DSC03684.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC03817.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="photos/DSC03817.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC04198.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="photos/DSC04198.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC04337.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="photos/DSC04337.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC04437.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="photos/DSC04437.jpg" class="img-fluid"></a></p>
+<p><a href="photos/DSC04670.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="photos/DSC04670.jpg" class="img-fluid"></a></p>
 </div>
 
 
@@ -540,6 +557,51 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>h</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

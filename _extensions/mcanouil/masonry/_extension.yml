@@ -6,4 +6,3 @@ contributes:
   filters:
     - masonry.lua
 
-lightbox: true 

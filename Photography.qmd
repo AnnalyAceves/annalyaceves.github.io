@@ -8,27 +8,34 @@ format:
 ---
 
 <div class="photo-masonry">
+![](photos/DSC00274.jpg)
 
-<img src="photos/DSC02675.jpg"/>
-<img src="photos/DSC02701.jpg"/>
-<img src="photos/DSC03015.jpg"/>
-<img src="photos/DSC03086.jpg"/>
-<img src="photos/DSC03236.jpg"/>
-<img src="photos/DSC03536.jpg"/>
-<img src="photos/DSC04198.jpg"/>
-<img src="photos/DSC04337.jpg"/>
-<img src="photos/DSC04437.jpg"/>
-<img src="photos/DSC04670.jpg"/>
-<img src="photos/DSC03525.jpg"/>
-<img src="photos/DSC03817.jpg"/>
-<img src="photos/DSC00590.jpg"/>
-<img src="photos/DSC00274.jpg"/>
-<img src="photos/DSC03684.jpg"/>
+![](photos/DSC00590.jpg)
+
+![](photos/DSC02675.jpg)
+
+![](photos/DSC02701.jpg)
+
+![](photos/DSC03015.jpg)
+
+![](photos/DSC03086.jpg)
+
+![](photos/DSC03236.jpg)
+
+![](photos/DSC03525.jpg)
+
+![](photos/DSC03536.jpg)
+
+![](photos/DSC03684.jpg)
+
+![](photos/DSC03817.jpg)
+
+![](photos/DSC04198.jpg)
+
+![](photos/DSC04337.jpg)
+
+![](photos/DSC04437.jpg)
+
+![](photos/DSC04670.jpg)
 
 </div>
-
-
-
-
-
-
