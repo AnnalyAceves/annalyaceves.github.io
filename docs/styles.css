@@ -7,11 +7,6 @@ body {
 
 }
 
-.footer img{
-  width: 20px;
-  height: 20px;
-}
-
 
 main.content, #quarto-content, .page-content, body {
   max-width: 100% !important;

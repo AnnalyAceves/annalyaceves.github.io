@@ -11,10 +11,4 @@ about:
 ---
 
 
-<div class="footer">
 
-  
-      
-      
-      
-</div>
