@@ -1,4 +1,29 @@
 ---
-title: "Art Work"
+title: "artwork"
 editor: visual
+toc: false
+format:
+  html:
+    page-layout: custom
+
 ---
+
+<div class=art>
+![](Art/A1.jpg)
+![](Art/A2.jpg)
+![](Art/A3.jpg)
+![](Art/A4.jpg)
+![](Art/A5.jpg)
+![](Art/A6.jpg)
+![](Art/A7.jpg)
+![](Art/A8.jpg)
+![](Art/A9.jpg)
+![](Art/A10.jpg)
+![](Art/A11.jpg)
+![](Art/A12.jpg)
+![](Art/A13.jpg)
+![](Art/A14.jpg)
+![](Art/A15.jpg)
+![](Art/A16.jpg)
+
+</div>
