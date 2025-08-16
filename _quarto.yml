@@ -13,7 +13,7 @@ website:
       - about.qmd
       - Photography.qmd
       - artwork.qmd
-  page-footer: h
+  
     
       
 format: 
