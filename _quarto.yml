@@ -13,7 +13,14 @@ website:
       - about.qmd
       - Photography.qmd
       - artwork.qmd
-  
+      
+  page-footer:
+    background: "#D7E2FA"
+    left: 
+      - icon: instagram
+        href: https://www.instagram.com/annalys_fotos?igsh=MzRlODBiNWFlZA==
+      - icon: github
+        href: https://github.com/AnnalyAceves
     
       
 format: 

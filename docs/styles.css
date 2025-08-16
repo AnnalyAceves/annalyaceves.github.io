@@ -24,25 +24,6 @@ main.content, #quarto-content, .page-content, body {
   box-sizing: border-box;
 }
 
-/* Responsive grid columns */
-@media (max-width: 1200px) {
-  .photo-masonry,  {
-    column-count: 3;
-  }
-}
-
-@media (max-width: 768px) {
-  .photo-masonry,  {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 480px) {
-  .photo-masonry,  {
-    column-count: 1;
-  }
-}
-
 /* Photo styles */
 .photo-masonry img, .art img, {
   width: 100%;
@@ -60,6 +41,9 @@ main.content, #quarto-content, .page-content, body {
   color:#DEE6FC ;
 }
 
+.page-footer{
+  background-color: #09195C !important;
+}
 
 /* Global Times New Roman override */
 * {

@@ -5,10 +5,9 @@ toc: false
 format:
   html:
     page-layout: custom
-
 ---
 
-<div class=art>
+::: art
 ![](Art/A1.jpg)
 
 ![](Art/A2.jpg)
@@ -29,8 +28,7 @@ format:
 
 ![](Art/A10.jpg)
 
-![](Art/A11.jpg)
-![](Art/A12.jpg)
+![](Art/A11.jpg) ![](Art/A12.jpg)
 
 ![](Art/A13.jpg)
 
@@ -39,5 +37,4 @@ format:
 ![](Art/A15.jpg)
 
 ![](Art/A16.jpg)
-
-</div>
+:::
