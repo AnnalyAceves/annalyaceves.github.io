@@ -7,6 +7,12 @@ body {
 
 }
 
+.footer img{
+  width: 20px;
+  height: 20px;
+}
+
+
 main.content, #quarto-content, .page-content, body {
   max-width: 100% !important;
   padding-left: 0 !important;
@@ -43,7 +49,7 @@ main.content, #quarto-content, .page-content, body {
 }
 
 /* Photo styles */
-.photo-masonry img, .art img{
+.photo-masonry img, .art img, {
   width: 100%;
   height: auto;
   margin-bottom: 15px;
