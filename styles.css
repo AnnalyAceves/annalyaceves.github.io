@@ -34,6 +34,9 @@ main.content, #quarto-content, .page-content, body {
   break-inside: avoid;
 }
 
+figcaption{
+  display: none;
+}
 
 /*navigation head*/
 .navbar {
