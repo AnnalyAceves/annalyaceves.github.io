@@ -41,9 +41,6 @@ main.content, #quarto-content, .page-content, body {
   color:#DEE6FC ;
 }
 
-.page-footer{
-  background-color: #09195C !important;
-}
 
 /* Global Times New Roman override */
 * {

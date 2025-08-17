@@ -7,35 +7,34 @@ format:
     page-layout: custom
 ---
 
-<div class="photo-masonry">
-![](photos/DSC00274.jpg)
+::: photo-masonry
+![2023](photos/DSC00274.jpg)
 
-![](photos/DSC00590.jpg)
+![2023](photos/DSC00590.jpg)
 
-![](photos/DSC02675.jpg)
+![2024](photos/DSC02675.jpg)
 
-![](photos/DSC02701.jpg)
+![2024](photos/DSC02701.jpg)
 
-![](photos/DSC03015.jpg)
+![2024](photos/DSC03015.jpg)
 
-![](photos/DSC03086.jpg)
+![2024](photos/DSC03086.jpg)
 
-![](photos/DSC03236.jpg)
+![2024](photos/DSC03236.jpg)
 
-![](photos/DSC03525.jpg)
+![2024](photos/DSC03525.jpg)
 
-![](photos/DSC03536.jpg)
+![2024](photos/DSC03536.jpg)
 
-![](photos/DSC03684.jpg)
+![2024](photos/DSC03684.jpg)
 
-![](photos/DSC03817.jpg)
+![2024](photos/DSC03817.jpg)
 
-![](photos/DSC04198.jpg)
+![2025](photos/DSC04198.jpg)
 
-![](photos/DSC04337.jpg)
+![2025](photos/DSC04337.jpg)
 
-![](photos/DSC04437.jpg)
+![2025](photos/DSC04437.jpg)
 
-![](photos/DSC04670.jpg)
-
-</div>
+![2025](photos/DSC04670.jpg)
+:::

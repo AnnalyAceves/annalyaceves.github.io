@@ -8,33 +8,35 @@ format:
 ---
 
 ::: art
-![](Art/A1.jpg)
+![Mixed Media Collage](Art/A1.jpg)
 
-![](Art/A2.jpg)
+![Watercolor and Ink Drawing](Art/A2.jpg)
 
-![](Art/A3.jpg)
+![Ink Drawing](Art/A3.jpg)
 
-![](Art/A4.jpg)
+![Watercolor and Ink Drawing](Art/A4.jpg)
 
-![](Art/A5.jpg)
+![Ink Drawing](Art/A5.jpg)
 
-![](Art/A6.jpg)
+![Watercolor and Ink Drawing](Art/A6.jpg)
 
-![](Art/A7.jpg)
+![Linocut Print](Art/A7.jpg)
 
-![](Art/A8.jpg)
+![Watercolor Painting](Art/A8.jpg)
 
-![](Art/A9.jpg)
+![Watercolor Painting](Art/A9.jpg)
 
-![](Art/A10.jpg)
+![Ink and Watercolor Painting](Art/A10.jpg)
 
-![](Art/A11.jpg) ![](Art/A12.jpg)
+![Watercolor Painting](Art/A11.jpg) 
 
-![](Art/A13.jpg)
+![Ink and Watercolor Painting](Art/A12.jpg)
 
-![](Art/A14.jpg)
+![Watercolor Painting](Art/A13.jpg)
 
-![](Art/A15.jpg)
+![Watercolor Painting](Art/A14.jpg)
 
-![](Art/A16.jpg)
+![Mixed Media Collage](Art/A15.jpg)
+
+![Mixed Media Collage](Art/A16.jpg)
 :::
